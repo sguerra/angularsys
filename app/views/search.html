@@ -1,0 +1,16 @@
+<div class="panel panel-success">
+    <div class="panel-heading">Proceedings</div>
+    <div class="panel-body">
+        <form>
+            <input ng-model="query" type="text" class="form-control" placeholder="buscar...">
+        </form>
+    </div>
+    <div class="list-group">
+        <a ng-repeat="proceeding in proceedings | filter : query" href="/#/proceeding/{{proceeding.id}}" class="list-group-item">
+            <h4 class="list-group-item-heading">{{proceeding.name}}</h4>
+            <p class="list-group-item-text">
+                <span class="label label-default">{{proceeding.tag}}</span>
+            </p>
+        </a>
+    </div>
+</div>
