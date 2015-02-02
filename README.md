@@ -8,7 +8,7 @@ You will need the following things properly installed on your computer.
 * [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
-* [YEOMAN](http://yeoman.io/)
+* [YEOMAN](http://yeoman.io/) (for development)
 
 ## Installation
 
